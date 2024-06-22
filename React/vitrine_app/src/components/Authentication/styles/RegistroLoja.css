@@ -1,0 +1,70 @@
+
+.registroLoja {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f5f5f5;
+}
+
+.registroLoja .container {
+  max-width: 400px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  background-color: #fff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.registroLoja .form {
+  display: flex;
+  flex-direction: column;
+}
+
+.registroLoja .formGroup {
+  margin-bottom: 15px;
+}
+
+.registroLoja .formGroup input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.registroLoja .button {
+  width: 100%;
+  padding: 10px;
+  background-color: #6200ea;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.registroLoja .button:hover {
+  background-color: #4500a9;
+}
+
+.registroLoja .text-center {
+  text-align: center;
+}
+
+.registroLoja .mt-2 {
+  margin-top: 20px;
+}
+
+.registroLoja .link-wrapper .link {
+  color: #6200ea;
+  text-decoration: none;
+}
+
+.registroLoja .link-wrapper .link:hover {
+  text-decoration: underline;
+}
+
+.registroLoja .error-message {
+  color: red;
+  font-size: 14px;
+  margin-bottom: 15px;
+}

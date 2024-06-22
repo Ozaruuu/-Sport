@@ -1,0 +1,73 @@
+.login-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #ffffff;
+}
+
+.login-container {
+    max-width: 400px;
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Estilos para o título do formulário de login */
+.login-title {
+    margin-bottom: 20px;
+}
+
+/* Estilos para os campos de entrada */
+.input-wrapper {
+    margin-bottom: 15px;
+}
+
+/* Estilos para o botão de login */
+.button-wrapper {
+    margin-top: 20px;
+}
+
+/* Estilos para o botão de login */
+.submit-button {
+    background-color: #7700ff; /* Defina a cor de fundo desejada */
+    border: none; 
+    color: white; 
+    padding: 10px 20px; 
+    font-size: 16px; 
+    border-radius: 5px; /* Adicione bordas arredondadas, se desejar */
+    transition: background-color 0.3s ease; /* Adicione uma transição suave para a mudança de cor */
+}
+
+.submit-button:hover {
+    background-color: #452d5c; /* Cor do botão ao passar o mouse */
+}
+
+/* Estilos para os links abaixo do formulário */
+.link-wrapper {
+    margin-top: 10px;
+}
+
+/* Estilos para o texto informativo */
+.text {
+    color: #777;
+}
+
+/* Estilos para os links */
+.link {
+    color: #583a7a;
+    text-decoration: none;
+}
+
+/* Estilos para o link de logo */
+.logoLink {
+    text-decoration: none;
+}
+
+/* Estilos para o link "Voltar" */
+.back-link {
+    color: rgb(140, 0, 255); 
+}
+
