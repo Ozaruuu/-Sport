@@ -1,14 +1,6 @@
-# Vitrine Virtual
 
-Projeto da disciplina Gerência de Projeto
-
-Alunos:
-
-Arthur Salviano Ferreira
 
 Fernando de Paiva Almeida Ferreira 
-
-Lucas Manoel Freire Monteiro Cabral
 
   Este é um projeto de E-commerce feito com Spring Boot, React e MySQL.
 
@@ -54,22 +46,19 @@ para instalar as dependências manualmente.
 
 ## Instalar dependências e executar springboot
 No diretório raiz do projeto "E-commerce App\Vitrine Virtual" (onde está o pom.xml), execute:
-  ```
-  mvn clean install
-  ```
+
 Após isso, execute o projeto com:
-  ```
-  mvn spring-boot:run
-  ```
+
+  
 
 ## Executar o Node
 
 Após a instalação das dependências, será necessário executar o Node.
 
 Navegue até o diretório do projeto Node "React\vitrine_app" e use o comando:
-  ```
+  
   npm start
-  ```
+  
 
 Após isso, a página inicial da Vitrine Virtual abrirá no seu browser padrão. Também é possível ver a página inicial ao acessar "http://localhost:3000/"
   
