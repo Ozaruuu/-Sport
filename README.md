@@ -1,14 +1,9 @@
-# Vitrine Virtual
++ SPORT
 
-Projeto da disciplina Gerência de Projeto
+Projeto da Disciplina Programação WEB
 
-Alunos:
-
-Arthur Salviano Ferreira
-
+Aluno:
 Fernando de Paiva Almeida Ferreira 
-
-Lucas Manoel Freire Monteiro Cabral
 
   Este é um projeto de E-commerce feito com Spring Boot, React e MySQL.
 
@@ -41,9 +36,6 @@ diretorio onde está o package.json ("E-commerce App\React\vitrine_app") e execu
   Get-Content requirements.txt | ForEach-Object { npm install $_ }
   ```
 
-### Linux:
-  ```
-  cat requirements.txt | xargs npm install
   ```
 
 Esse comando irá instalar as dependências listadas no arquivo "requirements.txt" ou se preferir, utilize o comando: 
@@ -73,5 +65,6 @@ Navegue até o diretório do projeto Node "React\vitrine_app" e use o comando:
 
 Após isso, a página inicial da Vitrine Virtual abrirá no seu browser padrão. Também é possível ver a página inicial ao acessar "http://localhost:3000/"
   
+
 
 
